@@ -1,0 +1,32 @@
+# Mad Libs Generator Project
+
+# questions the programs asks the user
+man_name = input("Type a man's name: ")
+occupation = input("What is this man's occupation? ")
+noun1 = input("Give me a noun (entity, place, or thing): ")
+noun2 = input("Another noun: ")
+noun3 = input("And another noun: ")
+shape = input("What is your favorite shape? ")
+verb1 = input("Give me a verb (action word): ")
+woman_name = input("Type a woman's name: ")
+body_part = input("What is a weird body part (singular)? ")
+verb2 = input("A different verb than the last one: ")
+noun4 = input("Type a noun: ")
+noun5 = input("Another noun: ")
+restaurant_name = input("Type in a restuarant name: ")
+historic_monument = input("Name a historic monument: ")
+
+# displays the story based on the user's input
+print("")
+print("-------------------------------------------------------------------------")
+print(man_name + " was a normal " + occupation + ". Then, one day, a")
+print(noun1 + " exploded, causing a " + noun2 + " to blow up, and a nearby")
+print(noun3 + " erupted into a " + shape + " of flames. " + man_name + " realized that")
+print("he's being chased by the government, who's trying to " + verb1 + " him. While")
+print("on the run, he teams up with an incredibly attractive woman named")
+print(woman_name + ", who has an incredible " + body_part + ". She may be")
+print("from the streets, but she can " + verb2 + " like nobody's business. The duo")
+print("decide to turn the tables o their pursuers by blowing up a " + noun4 + ", which")
+print("triggers a chain reaction, causing the local " + noun5 + ", " + restaurant_name + ", and")
+print("the " + historic_monument + " to explode.")
+print("---------------------------------THE END---------------------------------")
